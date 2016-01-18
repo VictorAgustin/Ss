@@ -1,0 +1,296 @@
+body{
+    margin-top:15px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    font-family : "Verdana";
+	background:#FDFDFD;
+
+}
+
+.container{
+	padding-bottom:0;
+    margin-left: auto;
+    margin-right: auto;
+    font-size:16px;
+}
+
+#header{
+	text-align: center;
+}
+
+#header img{
+	width: 110px;
+	height: 110px;
+}
+
+div#navbar{
+	margin-top: 0px;
+	margin-bottom: 25px;
+  	text-align: center;
+}
+div#navbar ul{
+  	display: inline-block;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-top: 5px;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+	background-color: #BBBBBB;
+    float: left;
+    margin: 5px;
+    text-align: center;
+    width: 180px;
+}
+
+li a {
+    display: inline-block;
+    color: #000000;
+    text-align: center;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li:hover {
+    background-color: #f0f0f0;
+}
+
+#isi-atas{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: #BBBBBB;
+}
+
+#dalam{
+	display:block;
+    overflow:hidden;
+    position: relative; 
+	background-color: #BBBBBB; 
+	height: 500px;
+
+}
+
+#dalam h1{
+	position: absolute;
+	font-size: 60px;
+	top: 30%;
+	width: 100%;
+	color: white; 
+}
+
+#dalam h3{
+	position: absolute; 
+	top: 50%;
+	/*left: 0; */
+	width: 100%;
+	color: white; 
+}
+
+#dalam img{
+	width:100%;
+	height:auto;
+}
+
+@media only screen and (max-width: 900px) {
+	li{
+		width: 100%;
+	}
+	#dalam{
+		height: 250px;
+	}
+	#dalam h1{
+		font-size: 36px;
+		top:30%;
+	}
+	#dalam h3{
+		/*font-size: 14px;*/
+		top:50%;
+	}
+}
+
+@media only screen and (max-width: 450px) {
+	#dalam{
+		height: 150px;
+	}	
+	#dalam h1{
+		font-size: 20px;
+		top:30%;
+	}
+	#dalam h3{
+		font-size: 14px;
+		top:50%;
+	}
+}
+
+#isi{
+	height: auto;
+	padding: 10px;
+	/*background-color: red;*/
+}
+
+#kotak{
+	margin-top: 0;
+	margin-right: 0;
+	margin-left: 0;
+	margin-bottom: 20px;
+    /*border: 1px solid #red;*/
+    /*background-color: yellow;*/
+    height: 400px;
+    width: 50%;
+    float: left;
+    text-align: center;
+    
+}
+
+@media only screen and (max-width: 900px) {
+	#kotak{
+	    /*border: 1px solid #red;*/
+	    height: 400px;
+	    width: auto;
+	}
+
+	#isi-kotak img{
+		width:100%;
+		height:auto;
+	}
+}
+
+#isi{
+	margin-top: 35px;
+	margin-right: 10%;
+	margin-left: 10%;
+	margin-bottom: 9px;
+}
+
+
+#isi-kotak{
+	/*background-color: #BBBBBB;*/
+	margin: 10px;
+	width: auto;
+	height: 70%;
+	display:block;
+    overflow:hidden;
+    position: relative; 
+	/*background-color: #BBBBBB; 
+	height: 500px;*/
+}
+
+#isi-kotak img{
+	width:100%;
+	height:auto;
+}
+
+#kotak:hover{
+	background-color: #BBBBBB;
+}
+
+div#kotak h1{
+	text-align: left;
+	margin-left: 10px;
+	margin-bottom: 0;
+	font-size: 18px;
+}
+div#kotak p{
+	text-align: left;
+	margin-top: 0;
+	margin-left: 10px;
+	margin-bottom: 5px;
+	font-size: 12px;
+}
+
+#clear{
+	clear: both;
+}
+
+#footer{
+
+	margin-top: 20px;
+	padding-top: 5px;
+	padding-bottom: 0;
+	background-color: #999999;
+}
+
+#isi-footer{
+	text-align: center;
+	background-color: #BBBBBB; 
+	height: 100px;
+	padding: 10px;
+}
+
+#footer-dalam{
+	margin-right: 10%;
+	margin-left: 10%;
+}
+
+/*#footer-tabel{
+	margin-left: 10px;
+}
+
+#footer-tabel h1{
+	text-align: left;
+	margin-bottom: 0;
+	font-size: 18px;
+}
+
+div#footer-tabel p{
+	text-align: left;
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 14px;
+}
+*/
+
+#konten-footer{
+	margin: 0;
+    width: 25%;
+    height: auto;
+    float: left;
+    text-align: center;
+    background-color: #BBBBBB; 
+}
+
+#konten-footer h1{
+	margin-left: 10px;
+	text-align: left;
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 16px;
+}
+
+#konten-footer p{
+	margin-left: 10px;
+	text-align: left;
+	margin-top: 4px;
+	margin-bottom: 0;
+	font-size: 12px;
+}
+
+#tabel-bawah img{
+	/*margin-right: -3px;*/
+	width: 50px;
+	height: 50px;
+}
+
+@media only screen and (max-width: 900px) {
+	#konten-footer{
+		margin-bottom: 15px;
+	    width: 100%;
+	}
+	#isi-footer{
+		height:80%;
+	}
+
+	#konten-footer h1{
+		text-align: center;
+	}
+
+	#konten-footer p{
+		text-align: center;
+	}
+}
